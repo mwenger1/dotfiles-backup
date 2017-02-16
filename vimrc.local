@@ -1,0 +1,41 @@
+let mapleader = ","
+nnoremap <leader>f :NERDTreeFind<CR>
+
+" move color long line divider at 80
+set colorcolumn=80
+
+" vim-test mappings
+nnoremap <silent> <Leader>t :TestFile<CR>
+nnoremap <silent> <Leader>s :TestNearest<CR>
+nnoremap <silent> <Leader>l :TestLast<CR>
+nnoremap <silent> <Leader>a :TestSuite<CR>
+nnoremap <silent> <leader>gt :TestVisit<CR>
+
+"let g:spec_runner_dispatcher = 'call Send_to_Tmux("clear\n{command}\n")'
+"let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+
+let test#strategy = "tslime"
+
+" navigate tabs
+nmap <Leader>nt :tabnew<CR>
+map <leader><tab> :tabn <CR>
+map <leader>p<tab> :tabp <CR>
+
+" Automatically save on focus lost
+autocmd BufLeave,FocusLost * silent! wall
+
+" set coloring
+set background=dark
+colorscheme solarized
+
+set nowrap
+
+" Highlight works on search but remove highlight when clicking enter
+set hlsearch
+nnoremap <CR> :nohlsearch<CR><CR>
+
+" Add search with Shift + K
+nnoremap K :Ag \\b<C-R><C-W>\\b<CR>
+
+"" syntastic
+let g:syntastic_javascript_checkers = ['eslint']

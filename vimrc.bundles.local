@@ -1,0 +1,17 @@
+Plug 'scrooloose/nerdtree'
+Plug 'jgdavey/tslime.vim'
+Plug 'altercation/vim-colors-solarized'
+Plug 'scrooloose/nerdcommenter'
+Plug 'peeja/vim-cdo'
+Plug 'isRuslan/vim-es6'
+
+" Add Git diffs to gutter
+Plug 'airblade/vim-gitgutter'
+
+Plug 'mwenger1/vim-rails'
+
+" Aliases for :cnext :cprevious
+Plug 'tpope/vim-unimpaired'
+
+" Rerun ctags
+Plug 'craigemery/vim-autotag'
