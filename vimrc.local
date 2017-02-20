@@ -39,3 +39,6 @@ nnoremap K :Ag \\b<C-R><C-W>\\b<CR>
 
 "" syntastic
 let g:syntastic_javascript_checkers = ['eslint']
+
+" Easy access to the start of the line
+nmap 0 ^
