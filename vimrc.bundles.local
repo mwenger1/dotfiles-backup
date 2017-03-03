@@ -15,3 +15,6 @@ Plug 'tpope/vim-unimpaired'
 
 " Rerun ctags
 Plug 'craigemery/vim-autotag'
+
+" Dash commands
+Plug 'rizzatti/dash.vim'
