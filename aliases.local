@@ -1,5 +1,7 @@
 # Getting Around
 alias clinical="cd ~/dev/miscellaneous/clinical-trial-finder"
+alias codekit="cd ~/dev/thoughtbot/clients/littlebits/codekit"
+alias codekite="cd ~/dev/thoughtbot/clients/littlebits/codekit-electron"
 alias desk="cd ~/Desktop"
 alias dev="cd ~/dev"
 alias dotfiles="cd ~/dotfiles"
