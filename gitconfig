@@ -25,3 +25,6 @@
   autosquash = true
 [include]
   path = ~/.gitconfig.local
+[user]
+	name = Mike Wenger
+	email = michaelwenger27@gmail.com
