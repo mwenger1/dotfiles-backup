@@ -2,6 +2,8 @@
 alias clinical="cd ~/dev/miscellaneous/clinical-trial-finder"
 alias codekit="cd ~/dev/thoughtbot/clients/littlebits/codekit"
 alias codekite="cd ~/dev/thoughtbot/clients/littlebits/codekit-electron"
+alias harrys="cd ~/dev/thoughtbot/clients/harrys/harrys"
+alias harry='BUNDLE_GEMFILE=$HOME/dev/thoughtbot/clients/harrys/harrys/harry/Gemfile bundle exec $HOME/dev/thoughtbot/clients/harrys/harrys/harry/bin/harry'
 alias desk="cd ~/Desktop"
 alias dev="cd ~/dev"
 alias dotfiles="cd ~/dotfiles"
@@ -25,6 +27,7 @@ alias c="clear"
 alias brake="bundle exec rake"
 alias heroku_server="heroku local -e .env.local"
 alias rake_db_migrate="rake db:migrate db:rollback db:migrate"
+alias server="python -m SimpleHTTPServer 8000"
 
 # Open github on current branch
 function gopen() {
