@@ -1,5 +1,6 @@
 # Getting Around
-alias clinical="cd ~/dev/miscellaneous/clinical-trial-finder"
+alias clinical="cd ~/dev/miscellaneous/clinical-trial-connect/clinical-trial-finder"
+alias clinical_marketing="cd ~/dev/miscellaneous/clinical-trial-connect/marketing-site"
 alias codekit="cd ~/dev/thoughtbot/clients/littlebits/codekit"
 alias codekite="cd ~/dev/thoughtbot/clients/littlebits/codekit-electron"
 alias harrys="cd ~/dev/thoughtbot/clients/harrys/harrys"
