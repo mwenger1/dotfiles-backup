@@ -4,6 +4,8 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'scrooloose/nerdcommenter'
 Plug 'peeja/vim-cdo'
 Plug 'isRuslan/vim-es6'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 " Add Git diffs to gutter
 Plug 'airblade/vim-gitgutter'
