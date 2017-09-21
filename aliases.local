@@ -3,6 +3,8 @@ alias clinical="cd ~/dev/miscellaneous/clinical-trial-connect/clinical-trial-fin
 alias clinical_marketing="cd ~/dev/miscellaneous/clinical-trial-connect/marketing-site"
 alias codekit="cd ~/dev/thoughtbot/clients/littlebits/codekit"
 alias codekite="cd ~/dev/thoughtbot/clients/littlebits/codekit-electron"
+alias be="bundle exec"
+alias fanbooks="cd ~/dev/thoughtbot/react_native/fanbooks-mobile"
 alias harrys="cd ~/dev/thoughtbot/clients/harrys/harrys"
 alias harry='BUNDLE_GEMFILE=$HOME/dev/thoughtbot/clients/harrys/harrys/harry/Gemfile bundle exec $HOME/dev/thoughtbot/clients/harrys/harrys/harry/bin/harry'
 alias desk="cd ~/Desktop"
