@@ -37,9 +37,26 @@ nnoremap <CR> :nohlsearch<CR><CR>
 " Add search with Shift + K
 nnoremap K :Ag \\b<C-R><C-W>\\b<CR>
 
-"" syntastic
-let g:syntastic_javascript_checkers = ['eslint']
+"" ale
+let g:ale_fixers = {}
+let g:ale_fixers['javascript'] = ['prettier']
+augroup Aleconfig
+  autocmd!
+  set updatetime=1000
+  let g:ale_lint_on_text_changed = 0
+  autocmd CursorHold * call ale#Lint()
+  autocmd CursorHoldI * call ale#Lint()
+  autocmd InsertEnter * call ale#Lint()
+  autocmd InsertLeave * call ale#Lint()
+augroup END
+
+let g:ale_fix_on_save = 1
+let g:ale_echo_msg_format = '[%linter%]: %s'
+
+
 let g:jsx_ext_required = 0
 
 " Easy access to the start of the line
 nmap 0 ^
+
+
