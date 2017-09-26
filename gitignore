@@ -12,3 +12,4 @@ tmp/**/*
 !tmp/cache/.keep
 *.pyc
 bin/ship_to_master
+.projections.json
