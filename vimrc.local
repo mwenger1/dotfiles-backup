@@ -26,6 +26,8 @@ autocmd BufLeave,FocusLost * silent! wall
 
 " set coloring
 set background=dark
+" outside
+" set background=light
 colorscheme solarized
 
 set nowrap
