@@ -48,6 +48,7 @@ let g:ale_fixers = {
     \     'prettier',
     \   ],
     \ }
+let g:ale_javascript_prettier_options = '--config .prettierrc'
 augroup Aleconfig
   autocmd!
   set updatetime=1000
