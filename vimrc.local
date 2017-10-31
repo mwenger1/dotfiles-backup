@@ -40,8 +40,14 @@ nnoremap <CR> :nohlsearch<CR><CR>
 nnoremap K :Ag \\b<C-R><C-W>\\b<CR>
 
 "" ale
-let g:ale_fixers = {}
-let g:ale_fixers['javascript'] = ['prettier']
+let g:ale_fixers = {
+    \   'javascript': [
+    \     'prettier',
+    \   ],
+    \   'typescript': [
+    \     'prettier',
+    \   ],
+    \ }
 augroup Aleconfig
   autocmd!
   set updatetime=1000

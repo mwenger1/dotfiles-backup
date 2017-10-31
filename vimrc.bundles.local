@@ -7,6 +7,7 @@ Plug 'isRuslan/vim-es6'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'w0rp/ale'
+Plug 'leafgarland/typescript-vim'
 
 " Add Git diffs to gutter
 Plug 'airblade/vim-gitgutter'
