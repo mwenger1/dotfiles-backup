@@ -61,6 +61,8 @@ augroup Aleconfig
 augroup END
 
 let g:ale_fix_on_save = 1
+let g:ale_set_quickfix = 1
+let g:ale_javascript_eslint_options = '--quiet'
 let g:ale_echo_msg_format = '[%linter%]: %s'
 
 
