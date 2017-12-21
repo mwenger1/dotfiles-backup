@@ -2,6 +2,7 @@ let mapleader = ","
 nnoremap <leader>f :NERDTreeFind<CR>
 
 " move color long line divider at 80
+"set colorcolumn=120
 set colorcolumn=80
 
 " vim-test mappings
