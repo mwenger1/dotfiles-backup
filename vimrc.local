@@ -53,7 +53,7 @@ let g:ale_fixers = {
 let g:ale_javascript_prettier_options = '--config .prettierrc'
 augroup Aleconfig
   autocmd!
-  set updatetime=1000
+  set updatetime=5000
   let g:ale_lint_on_text_changed = 0
   autocmd CursorHold * call ale#Lint()
   autocmd CursorHoldI * call ale#Lint()
