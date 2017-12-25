@@ -82,3 +82,6 @@ if has("autocmd")
         \ endif
   au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
 endif
+
+set timeoutlen=1000
+set ttimeoutlen=0
