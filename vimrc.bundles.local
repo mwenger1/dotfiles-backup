@@ -23,3 +23,5 @@ Plug 'craigemery/vim-autotag'
 " Dash commands
 Plug 'rizzatti/dash.vim'
 Plug 'editorconfig/editorconfig-vim'
+
+Plug 'Quramy/tsuquyomi'
