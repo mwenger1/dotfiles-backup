@@ -1,6 +1,7 @@
 # Getting Around
-alias clinical="cd ~/dev/miscellaneous/clinical-trial-connect/clinical-trial-finder"
+alias clinical="cd ~/dev/miscellaneous/clinical-trial-connect/application"
 alias clinical_marketing="cd ~/dev/miscellaneous/clinical-trial-connect/marketing-site"
+alias clinical_customers="cd ~/dev/miscellaneous/clinical-trial-connect/customer-cms-configurations"
 alias codekit="cd ~/dev/thoughtbot/clients/littlebits/codekit"
 alias codekite="cd ~/dev/thoughtbot/clients/littlebits/codekit-electron"
 alias be="bundle exec"
