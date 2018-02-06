@@ -65,7 +65,7 @@ alias glog="git log --no-merges master.."
 alias branchage='for k in `git branch|perl -pe s/^..//`;do echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k|head -n 1`\\t$k;done|sort -r'
 alias grecent='git for-each-ref --sort=-committerdate refs/heads/ --format="%(refname:short)"'
 alias gcamend="git commit --amend -CHEAD"
-alias rebase_master="git checkout master; git fetch; git pull origin master; git checkout -; git rebase -i origin/master"
+alias rebase_master="git checkout master; git pull origin master; git checkout -; git rebase -i origin/master"
 alias delete_all_branches="git branch | grep -v 'master' | xargs git branch -D"
 
 alias simulator="open -n /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
